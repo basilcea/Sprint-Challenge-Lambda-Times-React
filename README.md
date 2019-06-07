@@ -58,14 +58,14 @@ Follow these steps to set up your project:
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X]  Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [X] Push commits: git push origin `<firstName-lastName>`.
-- [ ] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
-- [ ] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
+- [X] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
+- [X] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [X] Add your project manager as a reviewer on the pull-request
+- [X] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
