@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled from "styed-components";
+import styled from "styled-components";
 const Card = props => {
   const CardContainer = styled.div`
     border-bottom: 1px solid lightgrey;
