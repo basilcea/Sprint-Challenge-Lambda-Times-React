@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TopBar from './components/TopBar';
 import Header from './components/Header';
 import Content from './components/Content/Content';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const AppContainer = styled.div `
    display: flex;

@@ -35,6 +35,7 @@ const Tabs = props => {
         {props.tabs.map(tab => (
           <Tab
             tab={tab}
+            key= {props.tabs.indexOf(tab)}
             selectTabHandler={props.selectTabHandler}
             selectedTab={props.selectedTab}
           />

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Card from "./Card";
 import PropTypes from "prop-types";
 import styled from "styled-components";
@@ -18,7 +18,7 @@ const Cards = props => {
   return (
     <CardsContainer>
       {props.cards.map(card => (
-        <Card card={card} />
+        <Card card={card} key={props.cards.indexOf(card)}/>
       ))}
     </CardsContainer>
   );
