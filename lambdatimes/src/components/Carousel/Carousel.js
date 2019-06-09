@@ -91,7 +91,6 @@ export default class Carousel extends Component {
       else{
         st.imageNumber -= 1;
       }
-      console.log(st.imageNumber)
      return (st.imageDisplayed = carouselData[st.imageNumber], setTimeout(this.leftClick,2000))
 
     })
@@ -105,7 +104,6 @@ export default class Carousel extends Component {
         else{
           st.imageNumber += 1
         }
-        console.log(st.imageNumber)
         return (st.imageDisplayed = carouselData[st.imageNumber], setTimeout(this.rightClick,2000))
       })
   }
