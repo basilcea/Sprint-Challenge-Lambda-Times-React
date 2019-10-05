@@ -46,7 +46,7 @@ const Card = props => {
       <Headline>{props.card.headline}</Headline>
       <Author>
         <Image>
-          <img src={props.card.img} />
+          <img src={props.card.img} alt='' />
         </Image>
         <Span>By {props.card.author}</Span>
       </Author>
